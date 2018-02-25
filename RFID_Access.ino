@@ -31,8 +31,9 @@ void setup()
             pinMode(LEDGREEN,OUTPUT);
             pinMode(ledred,OUTPUT);
             pinMode(rrelay,OUTPUT);
-          
+          // wifi connect
             Wificonnection();
+        // firebase connect and delete
             Firebase.begin(FIREBASE_HOST,FIREBASE_AUTH);
             Firebase.remove(UserCardNumber);
            //  Firebase.setString(UserCardNumber + "/name", CardName);
