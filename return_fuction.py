@@ -23,7 +23,12 @@ def lao_area(sqwa):
 
     return rai,ngan,wa
 a = 956
+b = 555
 print(lao_area(a))
+print(lao_area(b))
+
+
+
 
 
 
