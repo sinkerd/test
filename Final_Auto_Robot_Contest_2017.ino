@@ -16,13 +16,14 @@
     const int sensor_3 = 24;
     const int sensor_4 = 25;
     const int sensor_5 = 26;
-
+//test
 //Save Data to Read from Line Sensor 
     int data_sensor_1 = 0;
     int data_sensor_2 = 0;
     int data_sensor_3 = 0;
     int data_sensor_4 = 0;
     int data_sensor_5 = 0;
+
     
 //Set PIN to Motor && Power Txxn
     const int dir_1 = 12; //Motor Txxn Right
